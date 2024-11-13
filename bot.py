@@ -11,11 +11,8 @@ key = os.getenv("key")
 # Initialize the OpenAI client
 client = OpenAI(api_key=key)
 
-
-
 def chat_with_gpt4o():
     #print("Chat with GPT-4o! Type 'exit' to end the conversation.\n")
-    
 
     conversation_history = [
         {"role": "system", "content": "You are a helpful assistant."}
